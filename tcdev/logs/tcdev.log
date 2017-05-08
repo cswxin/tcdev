@@ -1,0 +1,512 @@
+2017-05-04 17:53:11,426 [Thread-2:10868] [logger:49] [ERROR]
+Traceback (most recent call last):
+  File "D:\Aptana Studio 3 Workspace\tcdev\tcdev\views.py", line 46, in login
+    return render_to_response("login.html", locals())
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\shortcuts.py", line 23, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 170, in render_to_string
+    t = get_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 144, in get_template
+    template, origin = find_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 136, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: login.html
+
+2017-05-04 17:53:11,444 [Thread-4:21632] [logger:49] [ERROR]
+Traceback (most recent call last):
+  File "D:\Aptana Studio 3 Workspace\tcdev\tcdev\views.py", line 46, in login
+    return render_to_response("login.html", locals())
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\shortcuts.py", line 23, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 170, in render_to_string
+    t = get_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 144, in get_template
+    template, origin = find_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 136, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: login.html
+
+2017-05-04 17:53:11,466 [Thread-6:26040] [logger:49] [ERROR]
+Traceback (most recent call last):
+  File "D:\Aptana Studio 3 Workspace\tcdev\tcdev\views.py", line 46, in login
+    return render_to_response("login.html", locals())
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\shortcuts.py", line 23, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 170, in render_to_string
+    t = get_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 144, in get_template
+    template, origin = find_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 136, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: login.html
+
+2017-05-04 17:53:11,480 [Thread-8:24184] [logger:49] [ERROR]
+Traceback (most recent call last):
+  File "D:\Aptana Studio 3 Workspace\tcdev\tcdev\views.py", line 46, in login
+    return render_to_response("login.html", locals())
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\shortcuts.py", line 23, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 170, in render_to_string
+    t = get_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 144, in get_template
+    template, origin = find_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 136, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: login.html
+
+2017-05-04 17:53:11,493 [Thread-10:6564] [logger:49] [ERROR]
+Traceback (most recent call last):
+  File "D:\Aptana Studio 3 Workspace\tcdev\tcdev\views.py", line 46, in login
+    return render_to_response("login.html", locals())
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\shortcuts.py", line 23, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 170, in render_to_string
+    t = get_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 144, in get_template
+    template, origin = find_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 136, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: login.html
+
+2017-05-04 17:53:11,878 [Thread-12:24884] [logger:49] [ERROR]
+Traceback (most recent call last):
+  File "D:\Aptana Studio 3 Workspace\tcdev\tcdev\views.py", line 46, in login
+    return render_to_response("login.html", locals())
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\shortcuts.py", line 23, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 170, in render_to_string
+    t = get_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 144, in get_template
+    template, origin = find_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 136, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: login.html
+
+2017-05-04 17:53:11,891 [Thread-14:20644] [logger:49] [ERROR]
+Traceback (most recent call last):
+  File "D:\Aptana Studio 3 Workspace\tcdev\tcdev\views.py", line 46, in login
+    return render_to_response("login.html", locals())
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\shortcuts.py", line 23, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 170, in render_to_string
+    t = get_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 144, in get_template
+    template, origin = find_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 136, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: login.html
+
+2017-05-04 17:53:11,905 [Thread-16:21036] [logger:49] [ERROR]
+Traceback (most recent call last):
+  File "D:\Aptana Studio 3 Workspace\tcdev\tcdev\views.py", line 46, in login
+    return render_to_response("login.html", locals())
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\shortcuts.py", line 23, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 170, in render_to_string
+    t = get_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 144, in get_template
+    template, origin = find_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 136, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: login.html
+
+2017-05-04 17:53:11,917 [Thread-18:19696] [logger:49] [ERROR]
+Traceback (most recent call last):
+  File "D:\Aptana Studio 3 Workspace\tcdev\tcdev\views.py", line 46, in login
+    return render_to_response("login.html", locals())
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\shortcuts.py", line 23, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 170, in render_to_string
+    t = get_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 144, in get_template
+    template, origin = find_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 136, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: login.html
+
+2017-05-04 17:53:11,930 [Thread-20:25472] [logger:49] [ERROR]
+Traceback (most recent call last):
+  File "D:\Aptana Studio 3 Workspace\tcdev\tcdev\views.py", line 46, in login
+    return render_to_response("login.html", locals())
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\shortcuts.py", line 23, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 170, in render_to_string
+    t = get_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 144, in get_template
+    template, origin = find_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 136, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: login.html
+
+2017-05-04 17:53:12,002 [Thread-22:26464] [logger:49] [ERROR]
+Traceback (most recent call last):
+  File "D:\Aptana Studio 3 Workspace\tcdev\tcdev\views.py", line 46, in login
+    return render_to_response("login.html", locals())
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\shortcuts.py", line 23, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 170, in render_to_string
+    t = get_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 144, in get_template
+    template, origin = find_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 136, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: login.html
+
+2017-05-04 17:53:12,016 [Thread-24:4752] [logger:49] [ERROR]
+Traceback (most recent call last):
+  File "D:\Aptana Studio 3 Workspace\tcdev\tcdev\views.py", line 46, in login
+    return render_to_response("login.html", locals())
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\shortcuts.py", line 23, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 170, in render_to_string
+    t = get_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 144, in get_template
+    template, origin = find_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 136, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: login.html
+
+2017-05-04 17:53:12,397 [Thread-26:22672] [logger:49] [ERROR]
+Traceback (most recent call last):
+  File "D:\Aptana Studio 3 Workspace\tcdev\tcdev\views.py", line 46, in login
+    return render_to_response("login.html", locals())
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\shortcuts.py", line 23, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 170, in render_to_string
+    t = get_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 144, in get_template
+    template, origin = find_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 136, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: login.html
+
+2017-05-04 17:53:12,411 [Thread-28:26396] [logger:49] [ERROR]
+Traceback (most recent call last):
+  File "D:\Aptana Studio 3 Workspace\tcdev\tcdev\views.py", line 46, in login
+    return render_to_response("login.html", locals())
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\shortcuts.py", line 23, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 170, in render_to_string
+    t = get_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 144, in get_template
+    template, origin = find_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 136, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: login.html
+
+2017-05-04 17:53:12,436 [Thread-30:18296] [logger:49] [ERROR]
+Traceback (most recent call last):
+  File "D:\Aptana Studio 3 Workspace\tcdev\tcdev\views.py", line 46, in login
+    return render_to_response("login.html", locals())
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\shortcuts.py", line 23, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 170, in render_to_string
+    t = get_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 144, in get_template
+    template, origin = find_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 136, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: login.html
+
+2017-05-04 17:53:12,451 [Thread-32:7568] [logger:49] [ERROR]
+Traceback (most recent call last):
+  File "D:\Aptana Studio 3 Workspace\tcdev\tcdev\views.py", line 46, in login
+    return render_to_response("login.html", locals())
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\shortcuts.py", line 23, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 170, in render_to_string
+    t = get_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 144, in get_template
+    template, origin = find_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 136, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: login.html
+
+2017-05-04 17:53:12,467 [Thread-34:17808] [logger:49] [ERROR]
+Traceback (most recent call last):
+  File "D:\Aptana Studio 3 Workspace\tcdev\tcdev\views.py", line 46, in login
+    return render_to_response("login.html", locals())
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\shortcuts.py", line 23, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 170, in render_to_string
+    t = get_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 144, in get_template
+    template, origin = find_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 136, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: login.html
+
+2017-05-04 17:53:12,490 [Thread-36:7688] [logger:49] [ERROR]
+Traceback (most recent call last):
+  File "D:\Aptana Studio 3 Workspace\tcdev\tcdev\views.py", line 46, in login
+    return render_to_response("login.html", locals())
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\shortcuts.py", line 23, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 170, in render_to_string
+    t = get_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 144, in get_template
+    template, origin = find_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 136, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: login.html
+
+2017-05-04 17:53:12,505 [Thread-38:24216] [logger:49] [ERROR]
+Traceback (most recent call last):
+  File "D:\Aptana Studio 3 Workspace\tcdev\tcdev\views.py", line 46, in login
+    return render_to_response("login.html", locals())
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\shortcuts.py", line 23, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 170, in render_to_string
+    t = get_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 144, in get_template
+    template, origin = find_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 136, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: login.html
+
+2017-05-04 17:53:12,898 [Thread-40:12184] [logger:49] [ERROR]
+Traceback (most recent call last):
+  File "D:\Aptana Studio 3 Workspace\tcdev\tcdev\views.py", line 46, in login
+    return render_to_response("login.html", locals())
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\shortcuts.py", line 23, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 170, in render_to_string
+    t = get_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 144, in get_template
+    template, origin = find_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 136, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: login.html
+
+2017-05-04 17:53:12,913 [Thread-42:23652] [logger:49] [ERROR]
+Traceback (most recent call last):
+  File "D:\Aptana Studio 3 Workspace\tcdev\tcdev\views.py", line 46, in login
+    return render_to_response("login.html", locals())
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\shortcuts.py", line 23, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 170, in render_to_string
+    t = get_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 144, in get_template
+    template, origin = find_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 136, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: login.html
+
+2017-05-04 17:53:17,930 [Thread-43:15252] [logger:49] [ERROR]
+Traceback (most recent call last):
+  File "D:\Aptana Studio 3 Workspace\tcdev\tcdev\views.py", line 46, in login
+    return render_to_response("login.html", locals())
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\shortcuts.py", line 23, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 170, in render_to_string
+    t = get_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 144, in get_template
+    template, origin = find_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 136, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: login.html
+
+2017-05-04 17:53:17,953 [Thread-45:19008] [logger:49] [ERROR]
+Traceback (most recent call last):
+  File "D:\Aptana Studio 3 Workspace\tcdev\tcdev\views.py", line 46, in login
+    return render_to_response("login.html", locals())
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\shortcuts.py", line 23, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 170, in render_to_string
+    t = get_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 144, in get_template
+    template, origin = find_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 136, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: login.html
+
+2017-05-04 17:53:17,969 [Thread-47:20140] [logger:49] [ERROR]
+Traceback (most recent call last):
+  File "D:\Aptana Studio 3 Workspace\tcdev\tcdev\views.py", line 46, in login
+    return render_to_response("login.html", locals())
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\shortcuts.py", line 23, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 170, in render_to_string
+    t = get_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 144, in get_template
+    template, origin = find_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 136, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: login.html
+
+2017-05-04 17:53:17,983 [Thread-49:6896] [logger:49] [ERROR]
+Traceback (most recent call last):
+  File "D:\Aptana Studio 3 Workspace\tcdev\tcdev\views.py", line 46, in login
+    return render_to_response("login.html", locals())
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\shortcuts.py", line 23, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 170, in render_to_string
+    t = get_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 144, in get_template
+    template, origin = find_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 136, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: login.html
+
+2017-05-04 17:53:17,996 [Thread-51:24484] [logger:49] [ERROR]
+Traceback (most recent call last):
+  File "D:\Aptana Studio 3 Workspace\tcdev\tcdev\views.py", line 46, in login
+    return render_to_response("login.html", locals())
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\shortcuts.py", line 23, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 170, in render_to_string
+    t = get_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 144, in get_template
+    template, origin = find_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 136, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: login.html
+
+2017-05-04 17:53:18,009 [Thread-53:2324] [logger:49] [ERROR]
+Traceback (most recent call last):
+  File "D:\Aptana Studio 3 Workspace\tcdev\tcdev\views.py", line 46, in login
+    return render_to_response("login.html", locals())
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\shortcuts.py", line 23, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 170, in render_to_string
+    t = get_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 144, in get_template
+    template, origin = find_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 136, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: login.html
+
+2017-05-04 17:53:18,387 [Thread-55:26348] [logger:49] [ERROR]
+Traceback (most recent call last):
+  File "D:\Aptana Studio 3 Workspace\tcdev\tcdev\views.py", line 46, in login
+    return render_to_response("login.html", locals())
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\shortcuts.py", line 23, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 170, in render_to_string
+    t = get_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 144, in get_template
+    template, origin = find_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 136, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: login.html
+
+2017-05-04 17:53:18,400 [Thread-57:26016] [logger:49] [ERROR]
+Traceback (most recent call last):
+  File "D:\Aptana Studio 3 Workspace\tcdev\tcdev\views.py", line 46, in login
+    return render_to_response("login.html", locals())
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\shortcuts.py", line 23, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 170, in render_to_string
+    t = get_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 144, in get_template
+    template, origin = find_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 136, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: login.html
+
+2017-05-04 17:53:18,413 [Thread-59:17656] [logger:49] [ERROR]
+Traceback (most recent call last):
+  File "D:\Aptana Studio 3 Workspace\tcdev\tcdev\views.py", line 46, in login
+    return render_to_response("login.html", locals())
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\shortcuts.py", line 23, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 170, in render_to_string
+    t = get_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 144, in get_template
+    template, origin = find_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 136, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: login.html
+
+2017-05-04 17:53:18,424 [Thread-61:23692] [logger:49] [ERROR]
+Traceback (most recent call last):
+  File "D:\Aptana Studio 3 Workspace\tcdev\tcdev\views.py", line 46, in login
+    return render_to_response("login.html", locals())
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\shortcuts.py", line 23, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 170, in render_to_string
+    t = get_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 144, in get_template
+    template, origin = find_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 136, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: login.html
+
+2017-05-04 17:53:18,825 [Thread-63:15044] [logger:49] [ERROR]
+Traceback (most recent call last):
+  File "D:\Aptana Studio 3 Workspace\tcdev\tcdev\views.py", line 46, in login
+    return render_to_response("login.html", locals())
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\shortcuts.py", line 23, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 170, in render_to_string
+    t = get_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 144, in get_template
+    template, origin = find_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 136, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: login.html
+
+2017-05-04 17:53:39,071 [Thread-1:24356] [logger:49] [ERROR]
+Traceback (most recent call last):
+  File "D:\Aptana Studio 3 Workspace\tcdev\tcdev\views.py", line 46, in login
+    return render_to_response("login.html", locals())
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\shortcuts.py", line 23, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 170, in render_to_string
+    t = get_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 144, in get_template
+    template, origin = find_template(template_name, dirs)
+  File "D:\Python27\Lib\site-packages\Django-1.7-py2.7.egg\django\template\loader.py", line 136, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: login.html
+
+2017-05-05 17:55:18,390 [Thread-19:5352] [logger:49] [ERROR]
+Traceback (most recent call last):
+  File "E:\tcdev\tcdev\views.py", line 46, in login
+    return render_to_response("login.html", locals())
+  File "E:\Python27\Lib\site-packages\django\shortcuts.py", line 23, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "E:\Python27\Lib\site-packages\django\template\loader.py", line 170, in render_to_string
+    t = get_template(template_name, dirs)
+  File "E:\Python27\Lib\site-packages\django\template\loader.py", line 144, in get_template
+    template, origin = find_template(template_name, dirs)
+  File "E:\Python27\Lib\site-packages\django\template\loader.py", line 136, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: login.html
+
+2017-05-05 17:55:23,056 [Thread-30:3172] [logger:49] [ERROR]
+Traceback (most recent call last):
+  File "E:\tcdev\tcdev\views.py", line 46, in login
+    return render_to_response("login.html", locals())
+  File "E:\Python27\Lib\site-packages\django\shortcuts.py", line 23, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "E:\Python27\Lib\site-packages\django\template\loader.py", line 170, in render_to_string
+    t = get_template(template_name, dirs)
+  File "E:\Python27\Lib\site-packages\django\template\loader.py", line 144, in get_template
+    template, origin = find_template(template_name, dirs)
+  File "E:\Python27\Lib\site-packages\django\template\loader.py", line 136, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: login.html
+
+2017-05-05 17:56:17,250 [Thread-1:11592] [logger:49] [ERROR]
+Traceback (most recent call last):
+  File "E:\tcdev\tcdev\views.py", line 46, in login
+    return render_to_response("login.html", locals())
+  File "E:\Python27\Lib\site-packages\django\shortcuts.py", line 23, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "E:\Python27\Lib\site-packages\django\template\loader.py", line 170, in render_to_string
+    t = get_template(template_name, dirs)
+  File "E:\Python27\Lib\site-packages\django\template\loader.py", line 144, in get_template
+    template, origin = find_template(template_name, dirs)
+  File "E:\Python27\Lib\site-packages\django\template\loader.py", line 136, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: login.html
+
+2017-05-06 22:17:56,380 [Thread-5:7764] [logger:42] [ERROR]
+账号或密码错误，请重新输入
+2017-05-06 22:18:45,891 [Thread-4:14088] [logger:42] [ERROR]
+账号或密码错误，请重新输入
+2017-05-06 22:19:04,802 [Thread-1:7704] [logger:42] [ERROR]
+账号或密码错误，请重新输入
+2017-05-06 22:19:21,944 [Thread-4:2320] [logger:42] [ERROR]
+账号或密码错误，请重新输入
