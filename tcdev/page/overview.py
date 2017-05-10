@@ -14,6 +14,7 @@ import datetime
 import logging
 import traceback
 from releaseinfo import SPECIAL_USERS
+from utils.WXBizMsgCrypt import WXBizMsgCrypt
 
 logger = logging.getLogger("myforms_logger")
 
@@ -56,9 +57,23 @@ def perm(request):
 
 
 @csrf_exempt
-@render_to("overview.html")
 def receive(request):
-    return locals()
+    token = "spamtest"
+    encodingAESKey = "abcdefghijklmnopqrstuvwxyz0123456789ABCDEFG"
+    appid = "wx2c2769f8efd9abc2"
+    
+    timestamp = request.GET.get('timestamp')
+    nonce = request.GET.get('nonce')
+    msg_sign = request.GET.get('msg_signature')
+    
+    from_xml = json.loads(request.body)
+    
+    decrypt_test = WXBizMsgCrypt(token, encodingAESKey, appid)
+    ret , decryp_xml = decrypt_test.DecryptMsg(from_xml, msg_sign, timestamp, nonce)
+    print ret 
+    print decryp_xml
+
+    return HttpResponse("success", content_type="application/json")
 
 from django.conf.urls import patterns, url
 
