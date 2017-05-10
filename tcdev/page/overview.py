@@ -60,19 +60,29 @@ def perm(request):
 def receive(request):
     token = "spamtest"
     encodingAESKey = "abcdefghijklmnopqrstuvwxyz0123456789ABCDEFG"
-    appid = "wx2c2769f8efd9abc2"
+    appid = "wxa53b6068be0068ac"
     
-    timestamp = request.GET.get('timestamp')
-    nonce = request.GET.get('nonce')
-    msg_sign = request.GET.get('msg_signature')
+    try:
+        timestamp = request.GET.get('timestamp')
+        nonce = request.GET.get('nonce')
+        msg_signature = request.GET.get('msg_signature')
+        print 'timestamp:', timestamp
+        print 'nonce:', nonce
+        print 'msg_signature:', msg_signature
     
-    from_xml = json.loads(request.body)
-    
-    decrypt_test = WXBizMsgCrypt(token, encodingAESKey, appid)
-    ret , decryp_xml = decrypt_test.DecryptMsg(from_xml, msg_sign, timestamp, nonce)
-    print ret 
-    print decryp_xml
-
+        decrypt_test = WXBizMsgCrypt(token, encodingAESKey, appid)
+        print 'decrypt_test:', decrypt_test
+        
+        str_xml = request.body
+        print 'str_xml:', str_xml
+        print 'type:', type(str_xml)
+        
+        ret , decryp_xml = decrypt_test.DecryptMsg(str_xml, msg_signature, timestamp, nonce)
+        print ret 
+        print decryp_xml
+    except:
+        print traceback.format_exc()
+        
     return HttpResponse("success", content_type="application/json")
 
 from django.conf.urls import patterns, url
