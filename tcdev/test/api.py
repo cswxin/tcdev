@@ -3,24 +3,27 @@
 
 import requests
 
-url = "https://api.weixin.qq.com/cgi-bin/component/api_component_token"
+appid = "wxa53b6068be0068ac"
+
+# url = "https://api.weixin.qq.com/cgi-bin/component/api_component_token"
+# data = {
+# "component_appid": appid,
+# "component_appsecret": "f116e87b7951a11942d1e841e36ef16b",
+# "component_verify_ticket": "ticket@@@3q3eQyWEjZehQ13sfMFCsexZ408aSDF2PLQ1bLLfwVMJLv7M0bpPGkyBQPwM8DI0Hf3IQd8R4pS5wjWmF14pAg" 
+# }
+# 
+# 
+# result = requests.post(url, json=data).json()
+# print result
+
+component_access_token = 'vWvb5cjfNcso9Xt0U3UG30O4GsA_zHccbQ8VauKU1N9modrUof3rpsEU0hPIioeWywmdLgmDe37ZWG-DyZYKfway6ak0dj3ZwB_a1vG12ynIZQZjkieZCcYAFaTnJJgIZEJjADAMRW'
+url = "https://api.weixin.qq.com/cgi-bin/component/api_create_preauthcode?component_access_token=%s"%component_access_token
 data = {
-"component_appid": "wxa53b6068be0068ac",
-"component_appsecret": "bc7f8fc805a43db69b1a520794425b02",
-"component_verify_ticket": "9bf839bc092ea304ec3b808b109f65e5ae4db009" 
+"component_appid": appid
 }
+result = requests.post(url, json=data).json()
+print result
 
-# AppID: 
-# wxa53b6068be0068ac
-# AppSecret: 
-# bc7f8fc805a43db69b1a520794425b02
+'pre_auth_code' = 'preauthcode@@@E6AvQW83CQwgV_vEFY6XF5FZP3OdmacABBUktsbP9t_yTtPdyRiAByGcJRBnzzGG'
 
-# signature=9bf839bc092ea304ec3b808b109f65e5ae4db009
-# timestamp=1494341721&
-# nonce=1385208597
-# encrypt_type=aes
-# msg_signature=b1f2e24ace9ce8d2fe9cd6f64527d771dfb96bfe
-
-
-result = requests.post(url, data)
-print result.text
+https://mp.weixin.qq.com/cgi-bin/componentloginpage?component_appid=wxa53b6068be0068ac&pre_auth_code=E6AvQW83CQwgV_vEFY6XF5FZP3OdmacABBUktsbP9t_yTtPdyRiAByGcJRBnzzGG&redirect_uri=preauthcode@@@E6AvQW83CQwgV_vEFY6XF5FZP3OdmacABBUktsbP9t_yTtPdyRiAByGcJRBnzzGG&redirect_uri=http%3A%2F%2F119.23.53.19
